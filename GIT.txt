@@ -1,0 +1,13 @@
+git init
+git config --global user.name "mahesh"
+git config --global user.email "mahesh.jagarlamudi@gmail.com"
+touch a b c
+git status
+git add a b c
+git status
+git commit -m "file a b"
+git config --list
+=================================
+
+
+working directory-->staging area--->local repository
